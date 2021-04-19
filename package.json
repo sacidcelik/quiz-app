@@ -1,0 +1,24 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "This is a quiz app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sacidcelik/quiz-app.git"
+  },
+  "author": "Sacid Celik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sacidcelik/quiz-app/issues"
+  },
+  "homepage": "https://github.com/sacidcelik/quiz-app#readme",
+  "devDependencies": {
+    "snowpack": "^3.3.3"
+  }
+}
