@@ -43,11 +43,15 @@ footer {
 .footer-nav {
   display: flex;
   justify-content: space-around;
-  align-content: flex-end;
+  align-items: flex-end;
 }
 
 .nav-img {
   width: 5rem;
+}
+
+.current-page {
+  width: 6.5rem;
 }
 
 .nav-item {
