@@ -22,7 +22,7 @@ header {
   display: flex;
   justify-content: center;
   padding: 1rem;
-  margin: 1rem;
+  margin: 0 1rem 1rem 1rem;
   position: sticky;
   top: 0;
   background-color: white;
@@ -131,17 +131,16 @@ button {
   justify-content: center;
   margin: 0 auto;
   flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .headshot-img {
   width: 300px;
   border-radius: 50%;
-  padding-right: 1rem;
 }
 
 .profile-name {
   font-size: 4rem;
-  padding-left: 1rem;
 }
 
 .bio-text {
