@@ -41,7 +41,7 @@ p {
 }
 
 body {
-  font-size: 1.25rem; /* var(--fs-400) */
+  font-size: var(--fs-400);
   line-height: 1.5;
 }
 
