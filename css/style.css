@@ -44,6 +44,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
+  flex-wrap: nowrap;
   padding-left: 0;
 }
 
@@ -78,7 +79,7 @@ footer {
   display: flex;
   justify-content: center;
   width: fit-content;
-  border: 1px solid red;
+  border: 1px solid lightcoral;
   margin: 0 auto;
   padding: 1rem;
 }
