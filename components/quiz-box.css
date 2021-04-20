@@ -1,30 +1,41 @@
 .quiz-box {
   border: 2px solid red;
-  padding: 1rem;
   margin: 3rem;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   position: relative;
 }
 
 .quiz-box__question {
+  padding: 1rem;
   display: flex;
   justify-content: flex-start;
-  padding: 1rem;
 }
 
 .quiz-box__answer {
-  display: flex;
-  justify-content: center;
-  width: fit-content;
   border: 1px solid lightcoral;
   margin: 0 auto;
   padding: 1rem;
+  display: flex;
+  width: fit-content;
+  justify-content: center;
 }
 
 .quiz-box__bookmark-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 7rem;
   width: 5rem;
   position: absolute;
   right: 10px;
-  top: -30px;
+  top: -45px;
+  /* background: center / contain no-repeat url("../images/bookmark_question.png"); */
+}
+
+.quiz-box__bookmark-icon:hover,
+.quiz-box__bookmark-icon--checked {
+  background: center / contain no-repeat
+    url("../images/bookmark_question_full.png");
 }
