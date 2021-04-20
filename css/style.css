@@ -44,14 +44,15 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
+  padding-left: 0;
 }
 
 .nav-img {
-  width: 5rem;
+  width: 4rem;
 }
 
 .current-page {
-  width: 6.5rem;
+  width: 5.5rem;
 }
 
 .nav-item {
