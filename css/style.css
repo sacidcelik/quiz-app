@@ -43,6 +43,7 @@ footer {
 .footer-nav {
   display: flex;
   justify-content: space-around;
+  gap: 3rem;
   align-items: flex-end;
   flex-wrap: nowrap;
   padding-left: 0;
