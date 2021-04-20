@@ -32,13 +32,13 @@
   right: 10px;
   top: -45px;
   width: 5rem;
-  /* background: center / contain no-repeat url("../images/bookmark_question.png"); */
+  /* background: center / contain no-repeat url("../../images/bookmark_question.png"); */
 }
 
 .quiz-box__bookmark-icon:hover,
 .quiz-box__bookmark-icon--checked {
   background: center / contain no-repeat
-    url("../images/bookmark_question_full.png");
+    url("../../images/bookmark_question_full.png");
 }
 
 .quiz-box__bookmark-icon--checked:hover {
