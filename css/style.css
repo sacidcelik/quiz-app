@@ -51,10 +51,12 @@ footer {
 
 .nav-img {
   width: 4rem;
+  opacity: 0.5;
 }
 
 .current-page {
   width: 5.5rem;
+  opacity: 1;
 }
 
 .nav-item {
