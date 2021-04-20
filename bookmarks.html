@@ -12,50 +12,41 @@
     <main>
       <article class="quiz-box">
         <img
-          class="bookmark-icon"
+          class="quiz-box__bookmark-icon"
           src="images/bookmark_question_full.png"
           alt="Bookmark it"
         />
-        <h2>Question:</h2>
-        <section class="question">
+        <h2 class="quiz-box__headline">Question:</h2>
+        <section class="quiz-box__question">
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam,
-            distinctio? Lorem ipsum dolor sit amet, consectetur adipisicing
-            elit. Hic quas quae sint exercitationem cupiditate amet aspernatur
-            magni tenetur rem repudiandae officiis nemo quod totam qui,
-            praesentium quia! Dolores, illum cupiditate! Id voluptatibus ullam
-            facilis enim similique?
+            What is the name of the Nintendo Entertainment System (NES) in its
+            country of origin, Japan?
           </p>
         </section>
-        <section class="answer">
+        <section class="quiz-box__answer">
           <details>
             <summary>Show Answer</summary>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Reprehenderit iure labore odio eaque veritatis. Rem sed corporis
-              doloremque nostrum magnam?
-            </p>
+            <p>Nintendo Family Computer (Famicom)</p>
           </details>
         </section>
-        <section>
-          <ul class="tag">
-            <li class="tags">topic1</li>
-            <li class="tags">topic2</li>
-            <li class="tags">topic3</li>
-            <li class="tags">topic4</li>
-            <li class="tags">topic5</li>
-            <li class="tags">topic6</li>
+        <section class="tags">
+          <ul class="tags__container">
+            <li class="tags__item">video games</li>
+            <li class="tags__item">nintendo</li>
+            <li class="tags__item">entertainment</li>
+            <li class="tags__item">japan</li>
+            <li class="tags__item">retro</li>
           </ul>
         </section>
       </article>
       <article class="quiz-box">
         <img
-          class="bookmark-icon"
+          class="quiz-box__bookmark-icon"
           src="images/bookmark_question_full.png"
           alt="Bookmark it"
         />
         <h2>Question:</h2>
-        <section class="question">
+        <section class="quiz-box__question">
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam,
             distinctio? Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -67,7 +58,7 @@
             reiciendis quo nam provident vero recusandae quibusdam?
           </p>
         </section>
-        <section class="answer">
+        <section class="quiz-box__answer">
           <details>
             <summary>Show Answer</summary>
             <p>
@@ -77,81 +68,47 @@
             </p>
           </details>
         </section>
-        <section>
-          <ul class="tag">
-            <li class="tags">topic1</li>
-            <li class="tags">topic2</li>
-            <li class="tags">topic3</li>
-            <li class="tags">topic4</li>
-            <li class="tags">topic5</li>
-            <li class="tags">topic6</li>
-          </ul>
-        </section>
-      </article>
-      <article class="quiz-box">
-        <img
-          class="bookmark-icon"
-          src="images/bookmark_question_full.png"
-          alt="Bookmark it"
-        />
-        <h2>Question:</h2>
-        <section class="question">
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam,
-            distinctio? Lorem ipsum dolor sit amet, consectetur adipisicing
-            elit. Hic quas quae sint exercitationem cupiditate amet aspernatur
-            magni tenetur rem repudiandae officiis nemo quod totam qui,
-            praesentium quia! Dolores, illum cupiditate! Id voluptatibus ullam
-            facilis enim similique? Magni consectetur quam illo assumenda, sed
-            quod asperiores est fuga. Fuga quo qui dicta quia dolore! Optio
-            reiciendis quo nam provident vero recusandae quibusdam?
-          </p>
-        </section>
-        <section class="answer">
-          <details>
-            <summary>Show Answer</summary>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Reprehenderit iure labore odio eaque veritatis. Rem sed corporis
-              doloremque nostrum magnam?
-            </p>
-          </details>
-        </section>
-        <section>
-          <ul class="tag">
-            <li class="tags">topic1</li>
-            <li class="tags">topic2</li>
-            <li class="tags">topic3</li>
-            <li class="tags">topic4</li>
-            <li class="tags">topic5</li>
-            <li class="tags">topic6</li>
+        <section class="tags">
+          <ul class="tags__container">
+            <li class="tags__item">topic1</li>
+            <li class="tags__item">topic3</li>
+            <li class="tags__item">topic2</li>
+            <li class="tags__item">topic4</li>
+            <li class="tags__item">topic5</li>
+            <li class="tags__item">topic6</li>
           </ul>
         </section>
       </article>
     </main>
-    <footer>
-      <ul class="footer-nav">
-        <li class="footer nav-item">
+    <footer class="navigation">
+      <ul class="navigation__container">
+        <li class="navigation__item">
           <a href="index.html"
-            ><img class="nav-img" src="./images/Home.png" alt="Home"
+            ><img class="navigation__image" src="./images/Home.png" alt="Home"
           /></a>
         </li>
-        <li class="footer nav-item">
+        <li class="navigation__item">
           <a href="bookmarks.html"
             ><img
-              class="nav-img current-page"
+              class="navigation__image navigation__image--active"
               src="./images/bookmark_question.png"
               alt="Bookmarks"
           /></a>
         </li>
-        <li class="footer nav-item">
+        <li class="navigation__item">
           <a href="create.html"
-            ><img class="nav-img" src="./images/Create.png" alt="Create"
+            ><img
+              class="navigation__image"
+              src="./images/Create.png"
+              alt="Create"
           /></a>
         </li>
-        <li class="footer nav-item">
+        <li class="navigation__item">
           <a href="profile.html"
-            ><img class="nav-img" src="./images/Profile.png" alt="Profile"
+            ><img
+              class="navigation__image"
+              src="./images/Profile.png"
+              alt="Profile"
           /></a>
         </li>
       </ul>

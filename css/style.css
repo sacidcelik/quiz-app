@@ -29,7 +29,7 @@ header {
   z-index: 10;
 }
 
-footer {
+.navigation {
   border-top: 4px solid hotpink;
   background-color: white;
   padding: 1rem;
@@ -40,7 +40,7 @@ footer {
   left: 0;
 }
 
-.footer-nav {
+.navigation__container {
   display: flex;
   justify-content: space-around;
   gap: 1rem;
@@ -49,18 +49,17 @@ footer {
   padding-left: 0;
 }
 
-.nav-img {
+.navigation__item {
+  list-style: none;
+}
+.navigation__image {
   width: 4rem;
   opacity: 0.5;
 }
 
-.current-page {
+.navigation__image--active {
   width: 5rem;
   opacity: 1;
-}
-
-.nav-item {
-  list-style: none;
 }
 
 .quiz-box {
@@ -72,13 +71,13 @@ footer {
   position: relative;
 }
 
-.question {
+.quiz-box__question {
   display: flex;
   justify-content: flex-start;
   padding: 1rem;
 }
 
-.answer {
+.quiz-box__answer {
   display: flex;
   justify-content: center;
   width: fit-content;
@@ -87,14 +86,7 @@ footer {
   padding: 1rem;
 }
 
-.tags {
-  background-color: #848e1b53;
-  padding: 0.5rem;
-  margin: 0.5rem;
-  border-radius: 7px;
-}
-
-.tag {
+.tags__container {
   list-style: none;
   padding: 1rem 0;
   margin: 0;
@@ -104,7 +96,14 @@ footer {
   align-items: center;
 }
 
-.bookmark-icon {
+.tags__item {
+  background-color: #848e1b53;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 7px;
+}
+
+.quiz-box__bookmark-icon {
   width: 5rem;
   position: absolute;
   right: 10px;
@@ -127,7 +126,7 @@ button {
   padding: 1rem;
 }
 
-.headshot,
+.user,
 .logout {
   display: flex;
   align-items: center;
@@ -137,16 +136,22 @@ button {
   gap: 1rem;
 }
 
-.headshot-img {
+.user__image {
   width: 300px;
   border-radius: 50%;
 }
 
-.profile-name {
+.user__name {
   font-size: 4rem;
 }
 
-.bio-text {
+.bio__paragraph {
   font-style: italic;
   margin: 1rem;
+}
+
+.bio__anchor {
+  text-decoration: none;
+  color: maroon;
+  font-style: bold;
 }
