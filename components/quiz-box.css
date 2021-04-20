@@ -1,0 +1,30 @@
+.quiz-box {
+  border: 2px solid red;
+  padding: 1rem;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.quiz-box__question {
+  display: flex;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+.quiz-box__answer {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  border: 1px solid lightcoral;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.quiz-box__bookmark-icon {
+  width: 5rem;
+  position: absolute;
+  right: 10px;
+  top: -30px;
+}

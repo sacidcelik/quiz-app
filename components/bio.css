@@ -1,0 +1,10 @@
+.bio__paragraph {
+  font-style: italic;
+  margin: 1rem;
+}
+
+.bio__anchor {
+  text-decoration: none;
+  color: maroon;
+  font-style: bold;
+}

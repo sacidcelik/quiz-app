@@ -53,18 +53,29 @@ img {
 
 /* Typography */
 
-.text-serif {
-  font-family: var(--ff-serif);
-  font-weight: 200;
-}
-
-.page-title {
-  font-size: var(--fs-900);
-}
-
-.section-title {
-  font-size: var(--fs-500);
-  color: var(--secondary);
-}
-
 /* general layout */
+
+h2 {
+  padding: 1rem;
+}
+
+main {
+  margin-bottom: 10rem;
+  /*   position: relative; */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  padding: 2rem;
+}
+
+button {
+  margin-top: 2rem;
+  padding: 1rem;
+}

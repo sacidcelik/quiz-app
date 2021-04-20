@@ -1,0 +1,23 @@
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.user__image {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.user__name {
+  font-size: 4rem;
+}
+
+.user__logout {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
