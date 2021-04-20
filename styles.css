@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+
+h2 {
+  padding: 1rem;
+}
+
+main {
+  margin-bottom: 10rem;
+  /*   position: relative; */
+}
+
+header {
+  border-bottom: 4px solid hotpink;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin: 0 1rem 1rem 1rem;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 10;
+}
+
+.navigation {
+  border-top: 4px solid hotpink;
+  background-color: white;
+  padding: 1rem;
+  margin: 5rem 1rem 0 1rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.navigation__container {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  padding-left: 0;
+}
+
+.navigation__item {
+  list-style: none;
+}
+.navigation__image {
+  width: 4rem;
+  opacity: 0.5;
+}
+
+.navigation__image--active {
+  width: 5rem;
+  opacity: 1;
+}
+
+.quiz-box {
+  border: 2px solid red;
+  padding: 1rem;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.quiz-box__question {
+  display: flex;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+.quiz-box__answer {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  border: 1px solid lightcoral;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.tags__container {
+  list-style: none;
+  padding: 1rem 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.tags__item {
+  background-color: #848e1b53;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 7px;
+}
+
+.quiz-box__bookmark-icon {
+  width: 5rem;
+  position: absolute;
+  right: 10px;
+  top: -30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  padding: 2rem;
+}
+
+button {
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.user,
+.logout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.user__image {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.user__name {
+  font-size: 4rem;
+}
+
+.bio__paragraph {
+  font-style: italic;
+  margin: 1rem;
+}
+
+.bio__anchor {
+  text-decoration: none;
+  color: maroon;
+  font-style: bold;
+}
