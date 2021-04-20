@@ -8,8 +8,8 @@
 }
 
 .user__image {
-  width: 300px;
   border-radius: 50%;
+  width: 300px;
 }
 
 .user__name {

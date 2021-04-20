@@ -39,3 +39,7 @@
   background: center / contain no-repeat
     url("../images/bookmark_question_full.png");
 }
+
+.quiz-box__bookmark-icon--checked:hover {
+  background: none;
+}

@@ -1,20 +1,20 @@
 .navigation {
-  border-top: 4px solid hotpink;
   background-color: white;
-  padding: 1rem;
+  border-top: 4px solid hotpink;
   margin: 5rem 1rem 0 1rem;
+  padding: 1rem;
   position: fixed;
   bottom: 0;
-  right: 0;
   left: 0;
+  right: 0;
 }
 
 .navigation__container {
   display: flex;
-  justify-content: space-around;
-  gap: 1rem;
   align-items: flex-end;
   flex-wrap: nowrap;
+  gap: 1rem;
+  justify-content: space-around;
   padding-left: 0;
 }
 
@@ -22,11 +22,11 @@
   list-style: none;
 }
 .navigation__image {
-  width: 4rem;
   opacity: 0.5;
+  width: 4rem;
 }
 
 .navigation__image--active {
-  width: 5rem;
   opacity: 1;
+  width: 5rem;
 }
