@@ -11,35 +11,27 @@
     <header><h1>Create</h1></header>
     <main>
       <form action="" class="create">
-        <label for="question"> Enter your question here: </label>
-        <textarea
-          class="create__question"
-          name="question"
-          id="question"
-          rows="15"
-          cols="40"
-        >
+        <label class="create__label" for="question">
+          Enter a new question here:
+        </label>
+        <textarea class="create__question" name="question" id="question">
 What is the meaning of life? </textarea
         >
-        <label for="answer"> Enter your answer here: </label>
-        <textarea
-          class="create__answer"
-          name="question"
-          id="question"
-          rows="15"
-          cols="40"
-        >
+        <label class="create__label" for="answer">
+          Enter the correct answer here:
+        </label>
+        <textarea class="create__answer" name="answer" id="answer">
 42 </textarea
         >
-        <label for="new-tags"
-          >What is your question about? Enter your tags here, separated by
+        <label class="create__label" for="new-tags"
+          >What is your new question about? Enter your tags here, separated by
           commas: </label
         ><input
           class="create__tags"
           type="text"
           name="new-tags"
           id="new-tags"
-          size="40"
+          placeholder="life,hitchhikers"
         />
         <button class="create__submit" type="submit">SUBMIT</button>
       </form>

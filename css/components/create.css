@@ -1,0 +1,49 @@
+.create {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 auto;
+  width: 75vw;
+}
+
+.create__label {
+  padding-top: 2rem;
+}
+
+.create__submit {
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.create__question,
+.create__answer,
+.create__tags {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  box-shadow: 2px 2px 7px rgba(77, 56, 45, 0.212);
+  margin-bottom: 2rem;
+}
+
+.create__question,
+.create__answer {
+  height: 10rem;
+}
+
+.create__tags {
+  height: 3rem;
+}
+
+.create__submit {
+  align-self: center;
+  background-color: hotpink;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 2px 2px 7px rgba(77, 56, 45, 0.212);
+}
