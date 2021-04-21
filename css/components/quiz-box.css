@@ -24,13 +24,9 @@
 }
 
 .quiz-box__bookmark-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 7rem;
   position: absolute;
   right: 10px;
-  top: -45px;
+  top: -30px;
   width: 5rem;
   /* background: center / contain no-repeat url("../../images/bookmark_question.png"); */
 }
