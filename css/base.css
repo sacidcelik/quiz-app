@@ -64,6 +64,18 @@ main {
   /*   position: relative; */
 }
 
+header {
+  background-color: white;
+  border-bottom: 4px solid hotpink;
+  display: flex;
+  justify-content: center;
+  margin: 0 1rem 1rem 1rem;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
 form {
   align-items: center;
   display: flex;

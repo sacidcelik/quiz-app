@@ -10,20 +10,38 @@
   <body>
     <header><h1>Create</h1></header>
     <main>
-      <form action="">
+      <form action="" class="create">
         <label for="question"> Enter your question here: </label>
-        <textarea name="question" id="question" rows="15" cols="40">
+        <textarea
+          class="create__question"
+          name="question"
+          id="question"
+          rows="15"
+          cols="40"
+        >
 What is the meaning of life? </textarea
         >
         <label for="answer"> Enter your answer here: </label>
-        <textarea name="question" id="question" rows="15" cols="40">
+        <textarea
+          class="create__answer"
+          name="question"
+          id="question"
+          rows="15"
+          cols="40"
+        >
 42 </textarea
         >
         <label for="new-tags"
           >What is your question about? Enter your tags here, separated by
           commas: </label
-        ><input type="text" name="new-tags" id="new-tags" size="40" />
-        <button type="submit">SUBMIT</button>
+        ><input
+          class="create__tags"
+          type="text"
+          name="new-tags"
+          id="new-tags"
+          size="40"
+        />
+        <button class="create__submit" type="submit">SUBMIT</button>
       </form>
     </main>
     <footer>
