@@ -28,12 +28,13 @@
 .quiz-box__bookmark-icon {
   position: absolute;
   right: 15px;
-  top: -25px;
+  top: -50px;
   width: 4rem;
+  height: 7rem;
   transform: scale(1);
-  transition: transform 0.2s ease;
-  /* background: center / contain no-repeat
-    url("../../images/bookmark_question.png"); */
+  transition: all 0.5s ease;
+  background: center / contain no-repeat
+    url("../../images/bookmark_question.png");
 }
 
 .quiz-box__bookmark-icon:hover,
@@ -44,6 +45,7 @@
 }
 
 .quiz-box__bookmark-icon--checked:hover {
-  background: none;
+  background: center / contain no-repeat
+    url("../../images/bookmark_question.png");
   transform: scale(1);
 }
