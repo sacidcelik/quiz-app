@@ -1,16 +1,15 @@
 .user__card {
-  display: flex;
   background-color: var(--clr-box-1);
   border-radius: 10px;
   box-shadow: 1px 2px 10px var(--clr-grey-2);
-  width: 90vw;
-  border-radius: 10px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
   flex-wrap: wrap;
   gap: 1rem;
+  margin: 0 auto;
   padding: 1rem;
+  width: 90vw;
 }
 
 .user__image {
@@ -24,8 +23,8 @@
 
 .user__bio,
 .user__skills {
-  width: 90vw;
   margin: 3rem auto;
+  width: 90vw;
 }
 
 .user__description,
@@ -57,10 +56,10 @@
 .user__logout button {
   align-self: center;
   background-color: var(--clr-accent-2);
-  padding: 12px 20px;
   border: none;
   border-radius: 4px;
-  cursor: pointer;
   box-shadow: 2px 2px 7px rgba(77, 56, 45, 0.212);
+  cursor: pointer;
   margin-top: 2rem;
+  padding: 12px 20px;
 }
