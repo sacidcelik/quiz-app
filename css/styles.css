@@ -1,7 +1,6 @@
 @import "./base.css";
 @import "./utility.css";
 
-@import "./components/bio.css";
 @import "./components/create.css";
 @import "./components/navigation.css";
 @import "./components/quiz-box.css";

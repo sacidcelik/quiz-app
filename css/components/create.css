@@ -39,8 +39,7 @@
 
 .create__submit {
   align-self: center;
-  background-color: hotpink;
-  color: white;
+  background-color: var(--clr-accent-2);
   padding: 12px 20px;
   border: none;
   border-radius: 4px;

@@ -1,12 +1,13 @@
 /* Resets and basic setup*/
 
 :root {
-  --primary: #e6beae;
-  --primary-light: #eee4e1;
-  --secondary: #b2967d;
-  --secondary-light: #e7d8c9;
-  --white: #ecf8f8;
-  --black: #211103;
+  /* CSS HSL */
+  --clr-accent-1: hsla(46, 74%, 92%, 1);
+  --clr-accent-2: hsla(168, 69%, 84%, 1);
+  --clr-box-1: hsla(5, 100%, 81%, 1);
+  --clr-box-2: hsla(188, 45%, 78%, 1);
+  --clr-grey-1: hsla(222, 10%, 41%, 1);
+  --clr-grey-2: hsla(222, 10%, 41%, 0.5);
 
   --ff-sans: sans-serif;
   --ff-serif: serif;
@@ -66,7 +67,7 @@ main {
 
 header {
   background-color: white;
-  border-bottom: 4px solid hotpink;
+  border-bottom: 4px solid var(--clr-accent-2);
   display: flex;
   justify-content: center;
   margin: 0 1rem 1rem 1rem;
@@ -75,3 +76,12 @@ header {
   top: 0;
   z-index: 10;
 }
+
+/* .divider {
+  width: 100vw;
+  height: 2px;
+  border-top: 2px ridge var(--clr-accent-2);
+  margin: 2rem;
+  padding: 0;
+}
+ */

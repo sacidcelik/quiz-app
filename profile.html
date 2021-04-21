@@ -12,8 +12,8 @@
     <header>
       <h1>Profile</h1>
     </header>
-    <main>
-      <section class="user">
+    <main class="user">
+      <section class="user__card">
           <img
             class="user__image"
             src="./images/BadgePhoto.jpg"
@@ -21,29 +21,33 @@
           />
           <p class="user__name">Sacid Celik</p>
       </section>
-      <section class="bio">
+      <div class="divider"></div>
+      <section class="user__bio">
         <h2>Bio</h2>
-          <p class="bio__paragraph">
-            I'm Sacid, 33, based in Munich and originally from Bremen.
-          </p>
-          <p class="bio__paragraph">
-            I have 7 years of experience in advertising and marketing working at
-            a global corporation. Currently, I am actively working on extending
-            my skillset by attending a web dev bootcamp at
-            <a
-              href="https://www.neuefische.de"
-              target="_blank"
-              class="bio__anchor"
-              >neuefische</a
-            >.
-          </p>
-          <p class="bio__paragraph">
-            Feel free to <a href="#contact" class="bio__anchor">reach out</a> if
-            you want to know more.
-          </p>
-      <section class="tags">
+          <article class="user__description">
+            <p class="user__paragraph">
+              I'm Sacid, 33, based in Munich and originally from Bremen.
+            </p>
+            <p class="user__paragraph">
+              I have 7 years of experience in advertising and marketing working at
+              a global corporation. Currently, I am actively working on extending
+              my skillset by attending a web dev bootcamp at
+              <a
+                href="https://www.neuefische.de"
+                target="_blank"
+                class="user__anchor"
+                >neuefische</a
+              >.
+            </p>
+            <p class="user__paragraph">
+              Feel free to <a href="#contact" class="user__anchor">reach out</a> if
+              you want to know more.
+            </p>
+          </article>
+          </section>
+      <section class="tags user__skills">
           <h2>Skills</h2>
-          <ul class="tags__container">
+          <ul class="tags__container user__skills-tags">
             <li class="tags__item">Online Advertising Campaign Setup</li>
             <li class="tags__item">Online Advertising Analytics</li>
             <li class="tags__item">Very futuristic HTML-only websites</li>

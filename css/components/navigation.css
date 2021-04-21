@@ -1,6 +1,6 @@
 .navigation {
   background-color: white;
-  border-top: 4px solid hotpink;
+  border-top: 4px solid var(--clr-accent-2);
   margin: 5rem 1rem 0 1rem;
   padding: 1rem;
   position: fixed;
