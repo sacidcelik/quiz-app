@@ -23,10 +23,10 @@
 }
 .navigation__image {
   opacity: 0.5;
-  width: 4rem;
+  width: 2rem;
 }
 
 .navigation__image--active {
   opacity: 1;
-  width: 5rem;
+  width: 3rem;
 }

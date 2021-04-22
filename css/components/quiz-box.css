@@ -83,3 +83,15 @@
   transition-delay: 0.15s;
   transform: scale(1);
 }
+
+/* Media queries */
+
+@media (min-width: 1000px) {
+  .quiz-box {
+    width: 10rem;
+    min-width: 450px;
+  }
+  main {
+    margin: 0 auto;
+  }
+}
