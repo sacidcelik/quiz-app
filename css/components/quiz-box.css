@@ -1,5 +1,4 @@
 .quiz-box {
-  color: black;
   border-radius: 10px;
   box-shadow: 1px 2px 5px var(--clr-grey-2), -1px -2px 5px var(--clr-grey-2);
   display: flex;
