@@ -26,6 +26,10 @@
   padding: 1rem 3rem;
 }
 
+.quiz-box__question > img {
+  width: 10rem;
+}
+
 .quiz-box__answer {
   display: flex;
   justify-content: center;
