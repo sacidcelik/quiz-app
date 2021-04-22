@@ -30,3 +30,19 @@
   opacity: 1;
   width: 3rem;
 }
+
+/* MEDIA QUERIES */
+
+@media (min-width: 1000px) {
+  .navigation__container {
+    max-width: 50rem;
+    margin: 0 auto;
+  }
+  .navigation__image {
+    width: 5rem;
+  }
+
+  .navigation__image--active {
+    width: 7rem;
+  }
+}
