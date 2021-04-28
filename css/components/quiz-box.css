@@ -45,15 +45,16 @@
   font-size: 1.5rem;
   cursor: pointer;
   padding: 0.4rem 0.7rem 0.6rem;
+  background-color: var(--clr-box-1);
 }
 
 .quiz-box:nth-child(odd) .quiz-box__button {
   background-color: var(--clr-box-2);
 }
 
-.quiz-box:nth-child(even) .quiz-box__botton {
+/* .quiz-box:nth-child(even) .quiz-box__botton {
   background-color: var(--clr-box-1);
-}
+} */
 
 .quiz-box__answer-text {
   padding-top: 1rem;
