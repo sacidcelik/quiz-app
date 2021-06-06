@@ -1,6 +1,7 @@
 export default function createElementWithClass(
   elementName,
   elementClassName,
+  parent,
   elementInnerText = ''
 ) {
   const newElement = document.createElement(elementName);
@@ -12,5 +13,6 @@ export default function createElementWithClass(
     });
   }
   newElement.innerText = elementInnerText;
+  parent.appendChild(newElement);
   return newElement;
 }

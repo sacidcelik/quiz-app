@@ -2,57 +2,71 @@ import { quizCards } from './lib/questions';
 import createElementWithClass from './lib/element-creator';
 
 quizCards.forEach((element) => {
-  const quizBox = createElementWithClass('article', 'quiz-box');
   const quizContainer = document.querySelector('main');
-  quizContainer.appendChild(quizBox);
-  const bookmarkIcon = createElementWithClass('div', 'quiz-box__bookmark-icon');
+  const quizBox = createElementWithClass('article', 'quiz-box', quizContainer);
+  const bookmarkIcon = createElementWithClass(
+    'div',
+    'quiz-box__bookmark-icon',
+    quizBox
+  );
   bookmarkIcon.setAttribute('role', 'img');
   bookmarkIcon.setAttribute('alt', 'Bookmark question');
-  quizBox.appendChild(bookmarkIcon);
   const bookmarkAnimation = createElementWithClass(
     'div',
-    'quiz-box__bookmark--animation'
+    'quiz-box__bookmark--animation',
+    quizBox
   );
-  quizBox.appendChild(bookmarkAnimation);
   const questionHeadline = createElementWithClass(
     'h2',
     'quiz-box__headline',
+    quizBox,
     'Question:'
   );
-  quizBox.appendChild(questionHeadline);
   const questionSection = createElementWithClass(
     'section',
-    'quiz-box__question'
+    'quiz-box__question',
+    quizBox,
+    ''
   );
-  quizBox.appendChild(questionSection);
   const question = createElementWithClass(
     'p',
     'quiz-box__question-text',
+    questionSection,
     element.question
   );
-  questionSection.appendChild(question);
-  const answerSection = createElementWithClass('section', 'quiz-box__answer');
-  quizBox.appendChild(answerSection);
+  const answerSection = createElementWithClass(
+    'section',
+    'quiz-box__answer',
+    quizBox,
+    ''
+  );
   const showAnswerButton = createElementWithClass(
     'button',
     'quiz-box__button',
+    answerSection,
     'Show Answer'
   );
-  answerSection.appendChild(showAnswerButton);
   const answerClasses = ['quiz-box__answer-text', 'hidden'];
-  const answer = createElementWithClass('p', answerClasses, element.answer);
-  answerSection.appendChild(answer);
-  const tags = createElementWithClass('section', 'tags');
-  quizBox.appendChild(tags);
-  const tagsContainer = createElementWithClass('ul', 'tags__container');
-  tags.appendChild(tagsContainer);
+  const answer = createElementWithClass(
+    'p',
+    answerClasses,
+    answerSection,
+    element.answer
+  );
+  const tags = createElementWithClass('section', 'tags', quizBox);
+  const tagsContainer = createElementWithClass(
+    'ul',
+    'tags__container',
+    tags,
+    ''
+  );
   element.tags.forEach((tag, index) => {
     const tagItem = createElementWithClass(
       'li',
       'tags__item',
+      tagsContainer,
       element.tags[index]
     );
-    tagsContainer.appendChild(tagItem);
   });
 });
 
